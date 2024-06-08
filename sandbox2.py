@@ -53,3 +53,4 @@ gfp.set_params(params)
 features_out = gfp.fit_transform(X)
 
 print(features_out.shape)
+np.save('features_out.npy', features_out)
